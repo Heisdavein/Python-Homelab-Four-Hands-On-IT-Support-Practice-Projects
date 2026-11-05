@@ -5,6 +5,7 @@ Author: Clinton Kehinde Focus: Python fundamentals for IT Support, Help Desk, an
 <img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/b28e86be-7265-4f0b-83bb-c02ca2530386" />
 
 📑 Table of Contents
+
 Project Overview
 Objectives
 Technologies Used
@@ -22,6 +23,8 @@ Best Practices I Followed
 Lessons Learned
 Future Improvements
 Conclusion
+
+
 📌 Project Overview
 
 Python is used almost everywhere in IT. People working in IT Support, Systems Administration, Cybersecurity, Cloud Computing, and Network Engineering use it to automate boring repetitive jobs, process data, troubleshoot systems, and build small tools that save time. As I kept building my technical skills, I realised I wanted more than theory. I wanted hands-on experience writing real programs that solve simple problems.
