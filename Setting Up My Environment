@@ -1,0 +1,150 @@
+## ⚙️ Setting Up My Environment
+ 
+Before writing any code, I prepared my development environment. A properly configured environment makes programming much easier: Python is installed correctly, commands work from the terminal, and scripts can be written, edited, and run without nasty surprises.
+ 
+I learned quickly that a few extra minutes of setup saves a lot of troubleshooting later. Problems like Python not being recognised by Windows, missing libraries, or files saved in the wrong place are usually caused by skipping an important installation step.
+ 
+### Step 1: Download Python for Windows
+ 
+I visited the official Python website at **python.org** instead of downloading Python from a third-party site. The site detected that I was on Windows 11 and recommended the latest stable release of Python 3. I downloaded the Windows installer and waited for the download to finish completely before opening it.
+
+
+**Why I did this:** Python is the one thing every project depends on, so I wanted a trustworthy copy.
+ 
+**What it accomplishes:** It gives me the Python interpreter, the program that reads my code and runs it.
+ 
+**How it works:** The official site detects your operating system and offers the right installer.
+ 
+**Why it matters in production:** Downloading software only from official sources protects against tampered installers and means I will receive official updates. The latest stable version also brings security updates and compatibility improvements without the instability of experimental releases.
+ 
+**If skipped or done wrong:** A copy from an unofficial website could be modified or outdated, which is a real security risk.
+ 
+### Step 2: Install Python
+ 
+I launched the installer and carefully read the first screen before clicking anything. One option stood out as especially important:
+ 
+```text
+Add python.exe to PATH
+```
+ 
+I made sure this checkbox was **ticked**, then clicked **Install Now**, which installs Python using the recommended default settings. The installer copied the files, configured Windows, and finished within a few minutes.
+ 
+> **📸 Screenshot Placeholder**
+> Insert screenshot showing: The Python installer's first screen with the "Add python.exe to PATH" checkbox ticked and the "Install Now" option visible.
+ 
+> **📸 Screenshot Placeholder**
+> Insert screenshot showing: The "Setup was successful" screen at the end of the Python installation.
+ 
+**Why I did this:** I wanted to run Python from any terminal window.
+ 
+**What it accomplishes:** Ticking the PATH box tells Windows where Python is installed. PATH is a list of folders Windows searches whenever you type a command.
+ 
+**How it works:** Because Python's folder is on that list, I can simply type either of these from any Command Prompt or terminal without browsing to Python's installation folder:
+ 
+```text
+python
+```
+ 
+```text
+python --version
+```
+ 
+> [!WARNING]
+> Forgetting to tick "Add python.exe to PATH" is one of the easiest mistakes beginners make. If it is left unchecked, Windows has no way of knowing where Python lives, and typing the commands above usually gives an error like this:
+>
+> ```text
+> 'python' is not recognized as an internal or external command.
+> ```
+>
+> Fixing it later often means manually editing Windows Environment Variables or reinstalling Python entirely.
+ 
+**Why it matters in production:** Support technicians and administrators run scripts from the command line all the time. A missing PATH entry is a very common cause of "it works on my machine but not on yours" tickets.
+ 
+By ticking the checkbox I avoided the problem completely. It only takes a second, but it is arguably the most important option in the whole installation.
+ 
+### Step 3: Verify the Installation
+ 
+I wanted to confirm that Windows recognised the installation. I opened **Command Prompt** by searching for `cmd` in the Windows Start menu and ran:
+ 
+```text
+python --version
+```
+ 
+Windows displayed the installed version. The output looked similar to:
+ 
+```text
+Python 3.x.x
+```
+ 
+> **📸 Screenshot Placeholder**
+> Insert screenshot showing: A Command Prompt window with `python --version` entered and the Python version number displayed underneath.
+ 
+**Why I did this:** Never assume an install worked. Always verify.
+ 
+**What it accomplishes:** Seeing a version number proved two things. First, Python installed successfully. Second, Windows correctly added Python to the system PATH, so it can run from anywhere on the computer.
+ 
+**If it had failed:** An error here would have pointed to a problem with the installation or the PATH configuration.
+ 
+**Why it matters in production:** Verifying each step right after you do it is a basic professional habit, because it catches problems while they are still easy to fix.
+ 
+### Step 4: Install a Code Editor
+ 
+Python scripts can be written in Notepad, but I wanted a more capable environment. I chose **Visual Studio Code (VS Code)**. I downloaded it from its official website, installed it with the default settings, and launched it to get familiar with the interface.
+ 
+I chose VS Code because it is lightweight, free, highly customisable, and used widely across the software industry. It also gives beginners several helpful features:
+ 
+- **Syntax highlighting** colours Python keywords, variables, and strings so the code is easier to read.
+- **Automatic code formatting** keeps programs neat and consistent.
+- **IntelliSense** suggests code as you type, which reduces typing and mistakes.
+- **An integrated terminal** lets me run scripts without leaving the editor.
+- **Error detection** highlights many mistakes before the program is even run.
+> **📸 Screenshot Placeholder**
+> Insert screenshot showing: The VS Code welcome screen right after the first launch.
+ 
+### Step 5: Install the Python Extension
+ 
+VS Code on its own does not give full Python support. To turn it into a proper Python development environment, I installed **Microsoft's official Python extension**. In VS Code I opened the **Extensions** panel, searched for `Python`, selected the official extension published by Microsoft (it appeared at the top of the results), and clicked **Install**.
+ 
+> **📸 Screenshot Placeholder**
+> Insert screenshot showing: The VS Code Extensions panel with "Python" searched and the Microsoft Python extension shown with its Install (or Installed) button.
+ 
+After installation, VS Code enabled several Python tools:
+ 
+- Intelligent code completion (IntelliSense)
+- Automatic syntax checking
+- Code navigation
+- Built-in debugging tools
+- Python interpreter selection
+- One-click program execution
+- Improved terminal integration
+I found IntelliSense especially useful. As I typed, VS Code suggested keywords, functions, variables, and methods, so I wrote code faster with fewer typos. The extension also underlines problems before I run the program, which makes syntax errors much easier to find.
+ 
+### Step 6: Create My Project Folder
+ 
+Before writing any code, I created a dedicated folder named `python-practice` on my desktop. I then opened VS Code and chose **File → Open Folder**, and selected the `python-practice` directory. The folder appeared in the **Explorer** panel on the left side of the VS Code window.
+ 
+> **📸 Screenshot Placeholder**
+> Insert screenshot showing: The `python-practice` folder open in the VS Code Explorer panel (File → Open Folder dialog, then the Explorer view).
+ 
+**Why I did this:** Keeping everything in one place has clear advantages:
+ 
+1. Projects are easier to find later.
+2. Related files stay organised together.
+3. Opening a whole folder lets VS Code manage all the project files at once instead of one at a time.
+From this point on, every script in this repository is saved inside this folder.
+ 
+> [!TIP]
+> A consistent folder structure looks like a small detail, but it is good professional practice. Organised projects are easier to manage, easier to back up, and much simpler to revisit.
+ 
+### ✅ Environment Verification Summary
+ 
+| Check | Expected Result | Actual Result | Status |
+| ----- | --------------- | ------------- | ------ |
+| Python downloaded from python.org | Official Windows installer | Official Windows installer | ✅ |
+| "Add python.exe to PATH" ticked | Checkbox selected before installing | Checkbox selected before installing | ✅ |
+| `python --version` | Python version number displayed | Python version number displayed | ✅ |
+| VS Code installed | Editor launches | Editor launches | ✅ |
+| Microsoft Python extension installed | Extension enabled | Extension enabled | ✅ |
+| `python-practice` folder opened in VS Code | Folder visible in Explorer | Folder visible in Explorer | ✅ |
+ 
+---
