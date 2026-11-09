@@ -255,9 +255,5 @@ Because of this, I always make sure there is a clear, reachable path to a `break
 - **What it accomplishes:** The program only accepts passwords that meet my rules, and it tells the user what to fix.
 - **Why it matters in production:** Validating input before accepting it is a core principle in IT and security. Weak passwords are a leading cause of account compromises, and many systems enforce password rules in a similar way.
 - **What could go wrong:** A missing `break` means an endless loop. A missing length check means short passwords pass the other tests. Forgetting to reset the Booleans at the start of each loop would carry results over from a previous attempt (in my script they are set to `False` inside the loop each time).
-### Optional Challenge I Set Myself
+
  
-> **📸 Screenshot Placeholder**
-> Insert screenshot showing: Any optional extension I tried for the password checker (for example, an additional rule) running in the terminal. Remove this placeholder if no extension was kept.
- 
----
