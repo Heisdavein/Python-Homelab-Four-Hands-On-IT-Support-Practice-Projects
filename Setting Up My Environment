@@ -29,7 +29,7 @@ Add python.exe to PATH
  
 I made sure this checkbox was **ticked**, then clicked **Install Now**, which installs Python using the recommended default settings. The installer copied the files, configured Windows, and finished within a few minutes.
  
-> **📸 Screenshot Placeholder**
+\
 > Insert screenshot showing: The Python installer's first screen with the "Add python.exe to PATH" checkbox ticked and the "Install Now" option visible.
  
 > **📸 Screenshot Placeholder**
