@@ -11,9 +11,6 @@ My first project was a simple **Age-Based Movie Recommender**. The program is sm
 - Making decisions with `if`, `elif`, and `else`
 The program asks for the user's name and age, then recommends a movie category. This is the same kind of decision-making used by streaming services, online shops, and mobile apps. They collect information from users and decide what to do with it. Mine is far simpler, but the logic is the same.
  
-> **📸 Screenshot Placeholder**
-> Insert screenshot showing: The "Chapter 3: Project 1" summary graphic, or the finished `movie_recommendation.py` open in VS Code.
- 
 ### Step 1: Create the Project File
  
 Inside my `python-practice` folder I right-clicked in the VS Code Explorer panel, selected **New File**, and named it:
