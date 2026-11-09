@@ -29,11 +29,9 @@ Add python.exe to PATH
  
 I made sure this checkbox was **ticked**, then clicked **Install Now**, which installs Python using the recommended default settings. The installer copied the files, configured Windows, and finished within a few minutes.
  
-\
-> Insert screenshot showing: The Python installer's first screen with the "Add python.exe to PATH" checkbox ticked and the "Install Now" option visible.
- 
-> **📸 Screenshot Placeholder**
-> Insert screenshot showing: The "Setup was successful" screen at the end of the Python installation.
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/246604bd-7d54-4d86-a9de-c627d9d50fcb" />
+
+The Python installer's first screen with the "Add python.exe to PATH" checkbox ticked and the "Install Now" option visible. and  The "Setup was successful" screen at the end of the Python installation.
  
 **Why I did this:** I wanted to run Python from any terminal window.
  
@@ -76,8 +74,8 @@ Windows displayed the installed version. The output looked similar to:
 Python 3.x.x
 ```
  
-> **📸 Screenshot Placeholder**
-> Insert screenshot showing: A Command Prompt window with `python --version` entered and the Python version number displayed underneath.
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/fdfe7a34-a3a0-4a88-b0c6-70bdf8c59e06" />
+A Command Prompt window with `python --version` entered and the Python version number displayed underneath.
  
 **Why I did this:** Never assume an install worked. Always verify.
  
@@ -105,8 +103,8 @@ I chose VS Code because it is lightweight, free, highly customisable, and used w
  
 VS Code on its own does not give full Python support. To turn it into a proper Python development environment, I installed **Microsoft's official Python extension**. In VS Code I opened the **Extensions** panel, searched for `Python`, selected the official extension published by Microsoft (it appeared at the top of the results), and clicked **Install**.
  
-> **📸 Screenshot Placeholder**
-> Insert screenshot showing: The VS Code Extensions panel with "Python" searched and the Microsoft Python extension shown with its Install (or Installed) button.
+ <img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/0143a214-430a-4c74-a3cc-48837b44453b" />
+  The VS Code Extensions panel with "Python" searched and the Microsoft Python extension shown with its Install (or Installed) button.
  
 After installation, VS Code enabled several Python tools:
  
@@ -123,8 +121,8 @@ I found IntelliSense especially useful. As I typed, VS Code suggested keywords, 
  
 Before writing any code, I created a dedicated folder named `python-practice` on my desktop. I then opened VS Code and chose **File → Open Folder**, and selected the `python-practice` directory. The folder appeared in the **Explorer** panel on the left side of the VS Code window.
  
-> **📸 Screenshot Placeholder**
-> Insert screenshot showing: The `python-practice` folder open in the VS Code Explorer panel (File → Open Folder dialog, then the Explorer view).
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/2bcd1a86-e7d5-4ee8-8c00-3d8e9007af0f" />
+The `python-practice` folder open in the VS Code Explorer panel (File → Open Folder dialog, then the Explorer view).
  
 **Why I did this:** Keeping everything in one place has clear advantages:
  
