@@ -11,11 +11,6 @@ Concepts practised: `while` loops, exception handling with `try` and `except`, i
 > [!NOTE]
 The mindset behind this project is essential in IT Support: never assume users will always give perfect input, and always build systems that recover gracefully from errors.
 > 
-
-> **📸 Screenshot Placeholder**
-Insert screenshot showing: The “Chapter 5: Project 3” summary graphic, or the finished `login_validator.py` open in VS Code.
-> 
-
 ### Step 1: Create the Project File
 
 Inside `python-practice` I created a new file named:
@@ -26,8 +21,8 @@ login_validator.py
 
 Descriptive filenames keep each exercise easy to find as my collection of Python programs grows.
 
-> **📸 Screenshot Placeholder**
-Insert screenshot showing: The Explorer panel with `login_validator.py` added to the `python-practice` folder.
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/dfb26c5e-f224-4b0f-9d2d-8d9204dc0c46" />
+The Explorer panel with `login_validator.py` added to the `python-practice` folder.
 > 
 
 ### Step 2: Create a Welcome Banner
@@ -52,9 +47,9 @@ Employee Login Portal
 
 This doesn’t change how the program works, but it improves the user experience. Clear headings and descriptive text make software feel polished and easier to understand. I noticed throughout my IT Support training that even simple applications benefit from presenting information clearly.
 
-> **📸 Screenshot Placeholder**
-Insert screenshot showing: The terminal displaying the Help Desk welcome banner.
-> 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/14acbbea-686e-420e-ba8c-5fa06ce9066a" />
+The terminal displaying the Help Desk welcome banner.
+ 
 
 ### Step 3: Build the Login Validation Loop
 
@@ -128,9 +123,9 @@ print("Please enter numbers only.")
 
 After those messages, the loop starts another round and asks for another Employee ID. This repeats until the user enters valid numeric input.
 
-> **📸 Screenshot Placeholder**
-Insert screenshot showing: The `while True` / `try` / `except ValueError` block written in VS Code, with syntax highlighting visible.
-> 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/ba9e0226-b82e-4202-9bb0-ad301d88a751" />
+ The `while True` / `try` / `except ValueError` block written in VS Code, with syntax highlighting visible.
+
 
 ### Step 4: Exit the Loop After a Successful Login
 
@@ -224,8 +219,8 @@ Employee ID: 12345
 Thank you for using the IT Help Desk.
 ```
 
-> **📸 Screenshot Placeholder**
-Insert screenshot showing: The full terminal session above: the banner, the rejected `abc` and `hello` entries with their error messages, the accepted `12345`, and the closing message.
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/1d4719d1-9354-4239-a864-3e1d9eb28703" />
+ The full terminal session above: the banner, the rejected `abc` and `hello` entries with their error messages, the accepted `12345`, and the closing message.
 > 
 
 ### ✅ Verification & Testing: Project 3
