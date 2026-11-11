@@ -15,10 +15,6 @@ So I deliberately created several Python programs with common mistakes. After wr
 
 I created a **separate Python file for each error**, which let me compare the broken version with the fixed version later.
 
-> **📸 Screenshot Placeholder**
-Insert screenshot showing: The “Chapter 6: Project 4” summary graphic, or the Explorer panel listing `error_task1.py` through `error_task6.py`.
-> 
-
 ### Task 1: Understanding a `SyntaxError`
 
 A `SyntaxError` happens when Python can’t even start running the program because the code’s structure breaks Python’s grammar rules. Before running a single line, Python checks that the whole program is valid. If it finds a structural mistake, execution stops immediately.
@@ -53,8 +49,8 @@ Running the corrected program produced:
 Welcome to Python
 ```
 
-> **📸 Screenshot Placeholder**
-Insert screenshot showing: The terminal with the `SyntaxError: '(' was never closed` message for `error_task1.py`, and then the corrected run printing `Welcome to Python`.
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/f7f3652a-aae3-4ab2-899b-9bae78ff473e" />
+ The terminal with the `SyntaxError: '(' was never closed` message for `error_task1.py`, and then the corrected run printing `Welcome to Python`.
 > 
 
 > [!TIP]
@@ -95,9 +91,9 @@ The corrected program produced:
 Clinton
 ```
 
-> **📸 Screenshot Placeholder**
-Insert screenshot showing: The `NameError: name 'username' is not defined` message for `error_task2.py`, then the corrected output `Clinton`.
-> 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/7a067f9f-5b27-4bf6-882b-86d50737ded7" />
+The `NameError: name 'username' is not defined` message for `error_task2.py`, then the corrected output `Clinton`.
+ 
 
 Whenever I see a `NameError` now, one of the first things I check is whether I misspelled a variable name or forgot to define it.
 
@@ -143,8 +139,8 @@ The corrected output was:
 Age: 22
 ```
 
-> **📸 Screenshot Placeholder**
-Insert screenshot showing: The `TypeError: can only concatenate str (not "int") to str` message for `error_task3.py`, then the corrected output `Age: 22`.
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/8480d24a-d7e2-4d87-a4af-08e0e006d11a" />
+The `TypeError: can only concatenate str (not "int") to str` message for `error_task3.py`, then the corrected output `Age: 22`.
 > 
 
 This task showed me why type conversion functions like `str()`, `int()`, and `float()` are used so often in Python.
@@ -235,9 +231,9 @@ The corrected output was:
 20.0
 ```
 
-> **📸 Screenshot Placeholder**
-Insert screenshot showing: The `ZeroDivisionError: division by zero` message for `error_task5.py`, then the corrected output `20.0`.
-> 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/ccc61d4d-7c92-402b-b782-09717b5ee328" />
+The `ZeroDivisionError: division by zero` message for `error_task5.py`, then the corrected output `20.0`.
+
 
 Whenever a program does calculations, it should make sure the divisor isn’t zero before dividing. This kind of defensive programming prevents runtime failures. I put it into practice in the bonus calculator below.
 
@@ -304,9 +300,9 @@ My name is Clinton
 30
 ```
 
-> **📸 Screenshot Placeholder**
-Insert screenshot showing: The first run of `error_task6.py` with the `NameError`, the second run showing the `TypeError`, and the final corrected output (`My name is Clinton` and `30`).
-> 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/29bbab42-8b57-47ac-a95c-849238046f26" />
+The first run of `error_task6.py` with the `NameError`, the second run showing the `TypeError`, and the final corrected output (`My name is Clinton` and `30`).
+
 
 > [!IMPORTANT]
 This is how debugging works in real life. Fixing the first error often reveals another one that was hidden because execution never reached that part of the program. I learned to correct **one problem at a time**, rerun the program, observe the next error, and repeat until everything works.
@@ -334,10 +330,6 @@ As I worked through each task I documented the error, its cause, my solution, an
 | 3 | `TypeError` | `TypeError: can only concatenate str (not "int") to str` | I tried to join a string and an integer using the `+` operator. Python does not automatically convert different data types. | Converted the integer to a string using `str(age)`. | `Age: 22` |
 | 4 | `ValueError` | `ValueError: invalid literal for int() with base 10` | I tried to convert text (`"Python"`) into an integer, but the string did not contain a valid number. | Replaced the text with a valid numeric string (`"100"`). | `100` |
 | 5 | `ZeroDivisionError` | `ZeroDivisionError: division by zero` | The program tried to divide a number by zero, which is mathematically impossible. | Changed the divisor from `0` to `5`. | `20.0` |
-
-> **📸 Screenshot Placeholder**
-Insert screenshot showing: The troubleshooting documentation table above as it appears when rendered, or the same table written in my notes.
-> 
 
 Completing this table forced me to slow down and think about each problem instead of immediately searching for an answer online. Rather than simply fixing the code, I identified the error type, understood why it happened, and recorded the steps to solve it. That mirrors the troubleshooting process in IT Support, where documenting the problem and its resolution is just as important as fixing it.
 
@@ -400,9 +392,9 @@ Error: You cannot divide by zero.
 
 The program behaved exactly as expected. Instead of showing a long traceback and stopping, it caught the exception and printed a short, understandable message.
 
-> **📸 Screenshot Placeholder**
-Insert screenshot showing: The terminal with `20` and `0` entered and the message `Error: You cannot divide by zero.`
-> 
+ <img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/91626462-e05d-4654-a775-f40c146a7411" />
+  The terminal with `20` and `0` entered and the message `Error: You cannot divide by zero.`
+
 
 #### Test 2: Successful Division
 
@@ -415,9 +407,9 @@ Enter second number: 5
 Result: 4.0
 ```
 
-> **📸 Screenshot Placeholder**
-Insert screenshot showing: The terminal with `20` and `5` entered and the output `Result: 4.0`.
-> 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/79e96f88-33aa-4857-829e-992ad57c86a3" />
+The terminal with `20` and `5` entered and the output `Result: 4.0`.
+
 
 ### ✅ Verification & Testing: Project 4
 
