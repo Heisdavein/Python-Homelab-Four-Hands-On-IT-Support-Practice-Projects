@@ -101,9 +101,6 @@ Beginner Python puts very little demand on a computer, unlike machine learning, 
 > [!NOTE]
 > None of the four projects needs high-end hardware. Python is a lightweight interpreted language (it reads and runs your code line by line), and these are simple console programs. Even computers with lower specifications should have no trouble following this guide.
  
-> **📸 Screenshot Placeholder**
-> Insert screenshot showing: The Windows 11 **Settings → System → About** page displaying the processor (Intel Core i5), installed RAM (8 GB), and Windows 11 edition.
- 
 ---
  
 ## 📁 Project Structure
