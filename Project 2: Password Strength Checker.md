@@ -187,8 +187,8 @@ Missing an uppercase letter. Try again.
  
 The program correctly noticed that the password had lowercase letters and numbers but no uppercase characters.
  
-> **📸 Screenshot Placeholder**
-> Insert screenshot showing: The terminal after entering `password123`, with the message `Missing an uppercase letter. Try again.`
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/1f09cd94-b123-473c-a953-5229b9ddaf4f" />
+The terminal after entering `password123`, with the message `Missing an uppercase letter. Try again.`
  
 #### Test 2: Password missing a digit
  
@@ -207,8 +207,8 @@ Missing a digit. Try again.
  
 This confirmed that the digit check works independently of the uppercase and lowercase checks.
  
-> **📸 Screenshot Placeholder**
-> Insert screenshot showing: The terminal after entering `Password`, with the message `Missing a digit. Try again.`
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/e7bc3a99-e6ae-4fe7-93ba-d61d98c14d6d" />
+The terminal after entering `Password`, with the message `Missing a digit. Try again.`
  
 #### Test 3: Strong password
  
@@ -226,9 +226,9 @@ Strong password accepted!
 ```
  
 This final test showed that the program only accepts a password after every requirement has been met.
- 
-> **📸 Screenshot Placeholder**
-> Insert screenshot showing: The terminal after entering `Password123!`, with the message `Strong password accepted!` and the program exiting.
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/fff2ade1-9fbf-4bb2-991f-b24df28f259a" />
+
+ The terminal after entering `Password123!`, with the message `Strong password accepted!` and the program exiting.
  
 ### ✅ Verification & Testing: Project 2
  
